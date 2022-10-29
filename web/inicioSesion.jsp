@@ -63,12 +63,12 @@
                     <table>
                         <tr>
                             <td>Usuario:</td>
-                            <td><input type="text" name="usuario"></td>
+                            <td><input type="text" name="usuario" required=""></td>
                         </tr>
                         <tr>
                         <br>
                         <td>Contraseña:</td>
-                        <td><input type="text" name="contrasena"></td>
+                        <td><input type="password" name="contrasena" required=""></td>
                         </tr>
                         <td colspan="2">
                             <input type="submit" name="action" value="ingresar">
