@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>U-cash</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            body{
+
+                font-family: 'Arial', Helvetica, sans-serif;
+                background-color: #AFB0AE;
+            }
+            #container{
+                width: 100%;
+            }
+            header{
+                background: white;
+                height: 70px;
+                width: 100%;
+                margin: 0px;
+                text-align: center;
+                line-height: 100px;
+                color: black;
+                border: 1px solid black;
+            }
+            nav{
+                background: white;
+                height: 50px;
+                border: 1px solid black;
+            }
+            nav ul li {
+                float: left;
+                list-style: none;
+                margin: 10px;
+                line-height: 30px;
+            }
+            .clearfix{
+                clear: both;
+            }
+            #content{
+                float: left;
+                width: calc(70%);
+                background: green;
+                min-height: 500px;
+                padding: 20px;
+                border: 1px solid black;
+            }
+            .article{
+                color: white;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid white;
+                
+            }
+            aside{
+                width: calc(20%-20px);
+                background: orange;
+                min-height: 500px;
+                padding: 20px;
+                color: white;
+                border: 1px solid black;
+                text-align: center;
+            }
+            footer{
+                background: black;
+                color: white;
+                text-align: center;
+                height: 50px;
+                line-height: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <h1>U-CASH</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            Ingresos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            Egresos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            Ahorros
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="clearfix"></div>
+            <section id="content">
+                <article class="article">
+                    <h2>U-cash</h2>
+                    Es una pagina web que te ayudara a llevar tus finanzas personales, mientras te diviertes... 
+                </article>
+                <article class="article">
+                    <h2>Ingresos</h2>
+                    Al conocer tus ingresos, es un paso importante saber cuanto recibes. 
+                </article>
+                <article class="article">
+                    <h2>Gastos</h2>
+                    Conocer la cantidad de gastos que realizas tambien es muy importante. 
+                </article>
+                <article class="article">
+                    <h2>Ahorros</h2>
+                    Los ahorros son la llave de la inversion en tus finanzas personales. 
+                </article>
+                <article class="article">
+                    <img src="https://acis.org.co/portal/sites/default/files/finanzas-personales.jpg"
+                         width="300" height="150" alt="alt"/>
+                </article>
+            </section>
+            <aside> 
+                <h3>Menu de opciones</h3>
+                <br>
+                <img src="https://cdn-icons-png.flaticon.com/512/40/40358.png" width="150" height="150" alt="alt"/>
+                <br>
+                <button> 
+                    <a href="estudiante.jsp">Registrar Estudiante</a>
+                </button> 
+                <br>
+                <img src="https://cdn-icons-png.flaticon.com/512/74/74235.png" width="150" height="150" alt="alt"/>
+                <br>
+                <button> 
+                    <a href="inicioSesion.jsp">Iniciar Sesion</a>
+                </button>
+            </aside>
+            <div class="clearfix"></div>
+            <footer>
+                Creadores: Estudiantes de la Univesidad de Cundinamarca &copy;2022
+            </footer>
+        </div>
+    </body>
+</html>
